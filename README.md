@@ -14,6 +14,7 @@ For example: I can say I need one full adder (`python parts.py "Full Adder"`), a
 
 
 My adder-subtractor output:
+
       Num  Part
     -----  ----------------
        14  XOR gate

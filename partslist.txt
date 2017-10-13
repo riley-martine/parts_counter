@@ -1,0 +1,27 @@
+Adder-Subtractor:
+    1 x Adder (4-bit)
+		1 x Subtractor (4-bit)
+		1 x 8-bit dip switch
+		8 x 1k_ohm resistor
+		5 x LED
+		5 x 330 ohm resistor
+
+Subtractor (4-bit):
+    1 x Adder (4-bit)
+		1 x Inverter
+    
+Adder (4-bit):
+    1 x Half Adder
+    3 x Full Adder
+
+Half Adder:
+    1 x XOR gate
+		1 x AND gate
+
+Full Adder:
+    2 x Half Adder
+		1 x OR gate
+
+Inverter:
+    4 x NOT Gate
+
